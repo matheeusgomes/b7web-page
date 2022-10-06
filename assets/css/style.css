@@ -174,7 +174,7 @@ footer {
         
     }
 }
-@media (min-width:220px) and (max-width:425px){
+@media (min-width:120px) and (max-width:425px){
 
     .infoFooter {
         display: flex;
@@ -183,6 +183,18 @@ footer {
 
     .cnpj {
         margin-bottom: 20px;
+
+    }
+
+    .conteudo2 {
+        text-align: center;
+    }
+    .imagens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
     }
 
 }
