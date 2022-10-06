@@ -163,8 +163,15 @@ footer {
         height: 110px;
     }
     
+    .titulo{
+        padding: 0px 15px;
+    }
     .conteudo2 {
         text-align: center;
+    }
+
+    .descricao {
+        margin: 30px;
     }
     .imagens {
         display: flex;
@@ -176,9 +183,24 @@ footer {
 }
 @media (min-width:20px) and (max-width:425px){
 
+    button {
+        font-size: 22px;
+        padding: 0px;
+    }
+
+    .text1{
+        padding: 0px 10px;
+    }
     .infoFooter {
         display: flex;
         flex-direction: column;
+    }
+    .titulo{
+        padding: 0px 15px;
+    }
+
+    .descricao {
+        margin: 30px;
     }
 
     .cnpj {
